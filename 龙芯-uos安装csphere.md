@@ -4,6 +4,9 @@
 ```
 apt-get install bridge-utils
 ```
+ps 配置uos apt仓库源  
+echo "deb [trusted=yes] http://pools.deepin.cn/ppa/dde-eagle eagle main non-free contrib" >>/etc/apt/sources.list
+echo "deb [trusted=yes] http://uos.packages.chinauos.com/uos eagle main non-free contrib" >>/etc/apt/sources.list
 2.修改主机名   
 ```
 hostnamectl set-hostname 
@@ -47,7 +50,7 @@ ln -sv /data/docker /var/lib/docker
 ln -sv /data/etcd2 /var/lib/etcd2
 ```
 
-##控制节点安装
+## 控制节点安装  
 1.解压安装包  
 tar xf controller.tgz -C /  
 
