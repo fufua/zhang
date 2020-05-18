@@ -87,6 +87,11 @@ COS_CONTROLLER={ip:port}
 COS_INETDEV={网卡名称}
 ```
 
+/etc/csphere/csphere-agent.env  
+```
+CONTROLLER_ADDR={控制器IP:80}
+```
+
 3.启动docker  
 cspherectl start docker  
 
