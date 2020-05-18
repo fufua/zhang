@@ -177,3 +177,13 @@ cspherectl start
 7.下面的命令请注意，在每一台agent机器上执行过一次即可不要每次都加  
 #IP范围设置为本机容器子网范围  
 net-plugin ip-range --ip-start=192.168.14.112/24 --ip-end=192.168.14.120/24
+
+## 镜像仓库
+1.控制器节点执行  
+
+```
+docker load -i registry-v2.tar
+```
+
+2.页面新建仓库  
+
