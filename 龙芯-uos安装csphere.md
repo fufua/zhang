@@ -144,7 +144,7 @@ ETCD_DISCOVERY=http://192.168.14.38:2379/v2/keys/discovery/hellocsphere
 /etc/csphere/inst-opts.env  
 ```
 COS_DISCOVERY_URL
-COS_CONTROLLER
+COS_CONTROLLER {控制器IP}
 ```
 IP替换为控制节点IP  
 
