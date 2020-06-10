@@ -75,6 +75,9 @@
 ![iamge](https://github.com/lyz-970124/work/blob/master/%E5%9B%BE%E7%89%87/CICD/%E7%AB%8B%E5%8D%B3%E6%9E%84%E5%BB%BA.png)
 ![image](https://github.com/lyz-970124/work/blob/master/%E5%9B%BE%E7%89%87/CICD/%E6%9E%84%E5%BB%BA%E7%BB%93%E6%9E%9C.png)
 
+
+使用maven项目的话可能会有问题，采用自由风格的项目 配置构建时按照下列方法配置：
+
 ```
 9、Gitlab中配置webhook
 ```
